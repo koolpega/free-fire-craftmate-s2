@@ -356,7 +356,7 @@ def account_info():
     }
 
     for region in regions:
-        url = f"https://ff.deaddos.online/api/data?region={region}&uid={uid}&key=Craftmate"
+        url = f"https://ff.ggbluewhale.store/api/data?region={region}&uid={uid}&key=Craftmate"
         app.logger.info(f"Fetching account info from region: {region} ({url})")
 
         try:
@@ -393,7 +393,7 @@ def map_info():
     regions = ['ind', 'sg', 'br']
 
     for region in regions:
-        url = f"https://map-info.craftland.ff.deaddos.online/api/{region}?code={code}&key=Craftmate"
+        url = f"https://map-info.craftland.ff.ggbluewhale.store/api/{region}?code={code}&key=Craftmate"
         app.logger.info(f"Fetching map info from region: {region} ({url})")
 
         try:
